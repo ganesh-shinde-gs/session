@@ -4,7 +4,7 @@ if (isset($_POST['submit'])) {
 	$name = $_POST['name'];
 	if (!empty($name=="ganesh shinde")) {
 		$_SESSION['name'] = "ganesh shinde";
-		header('location:wecome.php');
+		header('location:welcome.php');
 		die();
 	}
 }
